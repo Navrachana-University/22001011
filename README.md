@@ -15,7 +15,6 @@ Project Files
 - `lexer.l`: Defines token patterns for Italian keywords and supports accented characters.
 - `parser.y`: Specifies the grammar and TAC generation logic.
 - `input.it`: Sample input file containing SimpleLang code.
-- `Makefile`: Automates the build process.
 - `compiler.exe`: Executable generated after compilation.
 
 Setup and Execution
