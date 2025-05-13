@@ -81,11 +81,11 @@ Setup and Execution
 
 Important Notes
 ---------------
-- **Syntax**: Use Italian keywords (`stampa`, `se`, `altrimenti`) as defined in `lexer.l`. Ensure proper braces and semicolons in `input.sl`.
+- **Syntax**: Use Italian keywords (`stampa`, `se`, `altrimenti`) as defined in `lexer.l`. Ensure proper braces and semicolons in `input.it`.
 - **Encoding**: Set your terminal and text editor to UTF-8 to handle accented characters (e.g., é, à).
 - **Debugging**: If `output.txt` is not generated, verify `input.it` syntax and check for parse errors in the terminal (e.g., "Error: syntax error"). Ensure the correct command is used:
   ```
-  ./compiler.exe input.sl output.tac
+  ./compiler.exe input.it output.txt
   ```
 - **Build Issues**: If `make` fails, use the manual build commands. Confirm MSYS2 tools are accessible in PATH.
 
