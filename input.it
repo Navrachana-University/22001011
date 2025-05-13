@@ -1,0 +1,8 @@
+se (x < 0) {
+    stampa "negative";
+}altrimenti se (x == 0){
+    stampa "zero";
+}
+altrimenti {
+    stampa "positive";
+}
