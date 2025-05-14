@@ -1,38 +1,10 @@
-ifFalse x < 0 goto L2
-print negative
-goto L3
-L2:3
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ifFalse x == 0 goto L0
-print zero
+ifFalse x < 0 goto L0
+print "negative"
 goto L1
 L0:
-print positive
+ifFalse x == 0 goto L2
+print "zero"
+goto L1
+L2:
+print "positive"
 L1:
-L3:
